@@ -12,19 +12,24 @@ body{
 }
 ul{
 display: inline-flex;
+justify-content:flex-start;
+width: 300px;
+
 }
 nav{
   color: #F8F7FF;;
+  border: 1px solid purple;
 
 }
+
 h1{
   padding-left: 1em;
   color: #172A3A;
 }
 button{
-  text-align: right;
+  display: block;
   border: 1px solid #9A031E;
-
+  float: right;
 }
 li{
 list-style: none;
@@ -45,4 +50,10 @@ section{
   color: #F8F7FF;
 
 
+}
+.logo{
+float: right;
+}
+div{
+  border: 20px solid  #172A3A ;
 }
