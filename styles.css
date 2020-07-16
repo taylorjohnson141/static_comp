@@ -46,8 +46,8 @@ display:grid;
 grid-template-columns:  repeat(4,23.5%);
 grid-gap:1%;
 margin:0px 2em 20em 2em;
-
 }
+
 section{
   border: 5px solid #9A031E ;
   height: 20em;
