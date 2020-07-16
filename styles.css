@@ -32,6 +32,11 @@ button{
   float: right;
 }
 li{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-self: flex-start;
+  justify-content: space-around;
 list-style: none;
   border: 1px solid #9A031E;
 
@@ -50,6 +55,10 @@ section{
   color: #F8F7FF;
 
 
+}
+.icon{
+  padding-left: 20px;
+  margin-left: 20px;
 }
 .logo{
 float: right;
