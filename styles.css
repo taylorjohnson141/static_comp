@@ -3,22 +3,17 @@ header{
   background-color: #172A3A;
   height: 6em;
   margin: 0;
-  border: 1px solid yellow;
 }
 body{
   background-color: #F8F7FF;
   margin: 0;
 
 }
-ul{
-display: inline-flex;
-justify-content:flex-start;
-width: 300px;
 
-}
-nav{
+.secondFlexContainer{
+  display: flex;
   color: #F8F7FF;;
-  border: 1px solid purple;
+  justify-content: space-between;
 
 }
 
@@ -26,19 +21,29 @@ h1{
   padding-left: 1em;
   color: #172A3A;
 }
-button{
-  display: block;
-  border: 1px solid #9A031E;
-  float: right;
-}
-li{
+.firstFlexContainer{
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-self: flex-start;
-  justify-content: space-around;
-list-style: none;
+  flex-direction: row-reverse;
+}
+
+  p{
+    margin:0px;
+    padding :0px;
+    align-self: flex-end;
+    border: 1px solid #9A031E;
+    color:#9A031E;
+  }
+/* p{
+  align-self: flex-end;
   border: 1px solid #9A031E;
+} */
+li {
+list-style: none;
+padding-right:  1em;
+
+}
+i{
+  padding-right:  1em;
 
 }
 article{
@@ -56,13 +61,19 @@ section{
 
 
 }
-.icon{
-  padding-left: 20px;
-  margin-left: 20px;
+.logoText{
+  color: #F8F7FF;
+  margin-left: auto;
+  margin-right: 10px;
+  border:none;
 }
+
 .logo{
-float: right;
+/* why margin left autop work */
+  margin-right: 20px;
+
 }
+
 div{
   border: 20px solid  #172A3A ;
 }
