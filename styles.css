@@ -1,13 +1,17 @@
-body{
-margin: 0;
-}
+
 header{
   background-color: black;
   height: 6em;
   margin: 0;
+  border: 1px solid yellow;
 }
 body{
-  background-color: grey;
+  background-color: white;
+  margin: 0;
+
+}
+ul{
+display: inline-flex;
 }
 nav{
   color: red;
@@ -17,11 +21,14 @@ h1{
   padding-left: 1em;
 }
 button{
-  float: right;
-  margin-right: 2em;
+  text-align: right;
+  border: 1px solid red;
+
 }
 li{
-  display: inline-flex;
+
+  border: 1px solid red;
+
 }
 article{
 display:grid;
@@ -33,5 +40,6 @@ margin:0px 2em 20em 2em;
 section{
   border: 5px solid red;
   height: 20em;
+  background-color: FDFDFD;
 
 }
