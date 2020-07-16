@@ -1,12 +1,12 @@
 
 header{
-  background-color: black;
+  background-color: #172A3A;
   height: 6em;
   margin: 0;
   border: 1px solid yellow;
 }
 body{
-  background-color: white;
+  background-color: #F8F7FF;
   margin: 0;
 
 }
@@ -14,32 +14,35 @@ ul{
 display: inline-flex;
 }
 nav{
-  color: red;
+  color: #F8F7FF;;
 
 }
 h1{
   padding-left: 1em;
+  color: #172A3A;
 }
 button{
   text-align: right;
-  border: 1px solid red;
+  border: 1px solid #9A031E;
 
 }
 li{
-
-  border: 1px solid red;
+list-style: none;
+  border: 1px solid #9A031E;
 
 }
 article{
 display:grid;
-grid-template-columns:  23.5% 23.55% 23.5% 23.5%;
+grid-template-columns:  repeat(4,23.5%);
 grid-gap:1%;
 margin:0px 2em 20em 2em;
 
 }
 section{
-  border: 5px solid red;
+  border: 5px solid #9A031E ;
   height: 20em;
-  background-color: FDFDFD;
+  background-color: #9A031E;
+  color: #F8F7FF;
+
 
 }
