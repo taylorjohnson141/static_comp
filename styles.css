@@ -1,0 +1,37 @@
+body{
+margin: 0;
+}
+header{
+  background-color: black;
+  height: 6em;
+  margin: 0;
+}
+body{
+  background-color: grey;
+}
+nav{
+  color: red;
+
+}
+h1{
+  padding-left: 1em;
+}
+button{
+  float: right;
+  margin-right: 2em;
+}
+li{
+  display: inline-flex;
+}
+article{
+display:grid;
+grid-template-columns:  23.5% 23.55% 23.5% 23.5%;
+grid-gap:1%;
+margin:0px 2em 20em 2em;
+
+}
+section{
+  border: 5px solid red;
+  height: 20em;
+
+}
