@@ -1,37 +1,89 @@
-body{
-margin: 0;
-}
+
 header{
-  background-color: black;
+  background-color: #172A3A;
   height: 6em;
   margin: 0;
 }
 body{
-  background-color: grey;
-}
-nav{
-  color: red;
+  background-color: #F8F7FF;
+  margin: 0;
 
 }
+.userLogo{
+  color:#00B9AE;
+  padding-right: 1em;
+}
+
+.secondFlexContainer{
+  display: flex;
+  color: #F8F7FF;;
+  justify-content: space-between;
+  flex-wrap:nowrap;
+}
+
 h1{
   padding-left: 1em;
+  color: #172A3A;
 }
-button{
-  float: right;
-  margin-right: 2em;
+.firstFlexContainer{
+  display: flex;
+  flex-direction: row-reverse;
 }
-li{
-  display: inline-flex;
+
+  p{
+    margin:0px;
+    padding :0px;
+    align-self: flex-end;
+    color:#00B9AE;
+    white-space: nowrap;
+
+  }
+  .arrow{
+      color:#00B9AE;
+  }
+/* p{
+  align-self: flex-end;
+  border: 1px solid #9A031E;
+} */
+li {
+list-style: none;
+padding-right:  1em;
+white-space: nowrap;
+
+
+}
+i{
+  padding-right:  1em;
+
 }
 article{
 display:grid;
-grid-template-columns:  23.5% 23.55% 23.5% 23.5%;
+grid-template-columns:  repeat(4,23.5%);
 grid-gap:1%;
 margin:0px 2em 20em 2em;
+}
+
+section{
+  border: 5px solid #9A031E ;
+  height: 20em;
+  background-color: #9A031E;
+  color: #F8F7FF;
+
 
 }
-section{
-  border: 5px solid red;
-  height: 20em;
+.logoText{
+  color: #F8F7FF;
+  margin-left: auto;
+  margin-right: 10px;
+  border:none;
+}
 
+.logo{
+/* why margin left autop work */
+  margin-right: 20px;
+
+}
+
+div{
+  border: 20px solid  #172A3A ;
 }
