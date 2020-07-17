@@ -9,12 +9,16 @@ body{
   margin: 0;
 
 }
+.userLogo{
+  color:#00B9AE;
+  padding-right: 1em;
+}
 
 .secondFlexContainer{
   display: flex;
   color: #F8F7FF;;
   justify-content: space-between;
-
+  flex-wrap:nowrap;
 }
 
 h1{
@@ -30,8 +34,12 @@ h1{
     margin:0px;
     padding :0px;
     align-self: flex-end;
-    border: 1px solid #9A031E;
-    color:#9A031E;
+    color:#00B9AE;
+    white-space: nowrap;
+
+  }
+  .arrow{
+      color:#00B9AE;
   }
 /* p{
   align-self: flex-end;
@@ -40,6 +48,8 @@ h1{
 li {
 list-style: none;
 padding-right:  1em;
+white-space: nowrap;
+
 
 }
 i{
