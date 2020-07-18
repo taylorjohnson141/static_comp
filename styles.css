@@ -141,3 +141,13 @@ font-size: 1em;
 div{
   border: 20px solid  #172A3A ;
 }
+@media screen and (max-width: 50em)  {
+  article{
+  display:grid;
+  grid-template-columns:  repeat(2,50%);
+  grid-gap:1%;
+  margin:0px 2em 20em 2em;
+
+}
+
+}
