@@ -41,6 +41,13 @@ list-style: none;
   border: 1px solid #9A031E;
 
 }
+img{
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  height: auto;
+}
 article{
 display:grid;
 grid-template-columns:  repeat(4,23.5%);
@@ -48,12 +55,24 @@ grid-gap:1%;
 margin:0px 2em 20em 2em;
 
 }
-section{
+.inBox{
+  width: 100px
+}
+.box{
   border: 5px solid #9A031E ;
   height: 20em;
   background-color: #9A031E;
   color: #F8F7FF;
+  padding: 0%;
+  position: relative;
 
+
+}
+.test{
+  border:2px solid blue;
+}
+p{
+  color:red;
 
 }
 .icon{
