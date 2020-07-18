@@ -3,42 +3,57 @@ header{
   background-color: #172A3A;
   height: 6em;
   margin: 0;
-  border: 1px solid yellow;
 }
 body{
   background-color: #F8F7FF;
   margin: 0;
 
 }
-ul{
-display: inline-flex;
-justify-content:flex-start;
-width: 300px;
-
+.userLogo{
+  color:#00B9AE;
+  padding-right: 1em;
 }
-nav{
-  color: #F8F7FF;;
-  border: 1px solid purple;
 
+.secondFlexContainer{
+  display: flex;
+  color: #F8F7FF;;
+  justify-content: space-between;
+  flex-wrap:nowrap;
 }
 
 h1{
   padding-left: 1em;
   color: #172A3A;
 }
-button{
-  display: block;
-  border: 1px solid #9A031E;
-  float: right;
-}
-li{
+.firstFlexContainer{
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-self: flex-start;
-  justify-content: space-around;
-list-style: none;
+  flex-direction: row-reverse;
+}
+
+  p{
+    margin:0px;
+    padding :0px;
+    align-self: flex-end;
+    color:#00B9AE;
+    white-space: nowrap;
+
+  }
+  .arrow{
+      color:#00B9AE;
+  }
+/* p{
+  align-self: flex-end;
   border: 1px solid #9A031E;
+} */
+li {
+list-style: none;
+padding-right:  1em;
+white-space: nowrap;
+
+
+}
+i{
+  padding-right:  1em;
 
 }
 img{
@@ -53,7 +68,6 @@ display:grid;
 grid-template-columns:  repeat(4,23.5%);
 grid-gap:1%;
 margin:0px 2em 20em 2em;
-
 }
 .inBox{
   width: 100px
@@ -74,9 +88,11 @@ p{
   color:red;
 
 }
-.icon{
-  padding-left: 20px;
-  margin-left: 20px;
+.logoText{
+  color: #F8F7FF;
+  margin-left: auto;
+  margin-right: 10px;
+  border:none;
 }
 .gatsby{
 padding: 0;
@@ -89,8 +105,11 @@ margin: 0;
   margin: 0;
 }
 .logo{
-float: right;
+/* why margin left autop work */
+  margin-right: 20px;
+
 }
+
 div{
   border: 20px solid  #172A3A ;
 }
