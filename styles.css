@@ -163,6 +163,11 @@ div{
   padding-top: .5em;
   padding-bottom: .5em;
 }
+a{
+
+  text-decoration: none;
+  color: #F8F7FF;
+}
 
 .stars{
   font-size: 2em;
