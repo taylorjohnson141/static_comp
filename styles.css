@@ -132,15 +132,18 @@ font-size: 1em;
 .rankAboveImg{
   position: absolute;
   right: 1em;
-  color:#172A3A;
+  color:#F8F7FF;
 }
 .buttonAboveImg{
   position: absolute;
-  color:#172A3A;
+  color:#F8F7FF;
+  font-size: 3em;
+  margin-top: 0;
+  left: .25em;
 }
 .numberAboveImage{
   position: absolute;
-  top :1em;
+  top :1.25em;
   right:1em;
   color: #F8F7FF;
 }
