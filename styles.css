@@ -151,6 +151,44 @@ font-size: 1em;
 div{
   border: 20px solid  #172A3A ;
 }
+@media screen and (max-width: 80em){
+  article{
+  display:grid;
+  grid-template-columns:  repeat(3,33%);
+  grid-gap:1%;
+  margin:0px 2em 20em 2em;
+
+}
+.logoText{
+display: none;
+}
+.logo{
+display: none !important;
+}
+.logoTextHidden{
+  color: #F8F7FF;
+margin-right: .5em;
+margin-left: 40%;
+  font-size:  2em;
+  display:inline;
+}
+.logoHidden{
+  font-size: 1em;
+    margin-right: 10px;
+  display: inline !important;
+  color:#F8F7FF;
+  margin-right: auto;
+
+  }
+  .secondFlexContainer{
+    margin-top:7px;
+    justify-content:center;
+
+  }
+  .User{
+    align-self: center ;
+  }
+}
 @media screen and (max-width: 50em)  {
   article{
   display:grid;
@@ -168,7 +206,7 @@ display: none !important;
 .logoTextHidden{
   color: #F8F7FF;
 margin-right: .5em;
-margin-left: 3em;
+margin-left: 30%;
   font-size:  2em;
   display:inline;
 }
