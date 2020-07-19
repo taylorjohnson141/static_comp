@@ -148,6 +148,22 @@ font-size: 1em;
 div{
   border: 20px solid  #172A3A ;
 }
+@media screen and (max-width: 400px){
+  .logoHidden{
+    font-size: 1em;
+      margin-right: 10px;
+    display: inline !important;
+    color:#F8F7FF;
+    margin-right: auto;
+    }
+    .logoTextHidden{
+      color: #F8F7FF;
+    margin-right: .5em;
+    margin-left: 40%;
+      font-size:  1em !important ;
+      display:inline;
+    }
+}
 @media screen and (max-width: 80em){
   article{
   display:grid;
@@ -156,6 +172,7 @@ div{
   margin:0px 2em 20em 2em;
 
 }
+
 .logoText{
 display: none;
 }
@@ -186,6 +203,7 @@ margin-left: 40%;
     align-self: center ;
   }
 }
+
 @media screen and (max-width: 50em)  {
   article{
   display:grid;
