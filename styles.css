@@ -15,7 +15,7 @@ body{
 
 }
 .userLogo{
-  color:#00B9AE;
+  color:#d7263d;
   padding-right: .5em;
 }
 .firstFlexContainer{
@@ -44,18 +44,15 @@ h1{
     margin:0px;
     padding :0px;
     align-self: flex-end;
-    color:#00B9AE;
+    color:#d7263d;
     white-space: nowrap;
 
   }
   .arrow{
-      color:#00B9AE;
+      color:#d7263d;
       padding-left: .5em;
   }
-/* p{
-  align-self: flex-end;
-  border: 1px solid #9A031E;
-} */
+
 li {
 list-style: none;
 padding-right:  1em;
@@ -86,9 +83,9 @@ margin:0px 2em 20em 2em;
   width: 100px
 }
 .box{
-  border: 5px solid #9A031E ;
+  border: 5px solid #004346;
   height: 20em;
-  background-color: #9A031E;
+  background-color: #004346;
   color: #F8F7FF;
   padding: 0%;
   position: relative;
