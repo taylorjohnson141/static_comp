@@ -5,12 +5,12 @@ display: none;
 display: none !important;
 }
 header{
-  background-color: #172A3A;
+  background-color:#172A3A;
   height: 6em;
   margin: 0;
 }
 body{
-  background-color: #F8F7FF;
+  background-color: #508991;
   margin: 0;
 
 }
@@ -28,7 +28,7 @@ body{
 
 .secondFlexContainer{
   display: flex;
-  color: #F8F7FF;;
+  color: #F8F7FF;
   justify-content: space-between;
   flex-wrap:nowrap;
   border-top: 2em;
@@ -36,7 +36,7 @@ body{
 
 h1{
   padding-left: 1em;
-  color: #172A3A;
+  color: #F8F7FF;
 }
 
 
@@ -83,9 +83,9 @@ margin:0px 2em 20em 2em;
   width: 100px
 }
 .box{
-  border: 5px solid #004346;
+  border: 5px solid #172A3A;
   height: 20em;
-  background-color: #004346;
+  background-color:  #172A3A;
   color: #F8F7FF;
   padding: 0%;
   position: relative;
@@ -121,10 +121,7 @@ margin: 0;
   padding-top: 7em;
   font-size: 1.2em;
 }
-.test{
-  padding: 0;
-  margin: 0;
-}
+
 .logo{
 /* why margin left auto work */
 font-size: 1em;
@@ -163,6 +160,7 @@ div{
 .link{
   padding-top: .5em;
   padding-bottom: .5em;
+  border: 1px solid #508991;
 }
 a{
 
