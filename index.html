@@ -1,151 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="normalize.css">
-   <link rel="stylesheet" href="styles.css">
-   <script src="https://kit.fontawesome.com/2d762f2fc2.js" crossorigin="anonymous"></script>
-  <title>Static Comp</title>
-</head>
-<body>
-    <header>
-      <div class = 'firstFlexContainer'>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="normalize.css">
+     <link rel="stylesheet" href="styles.css">
+     <script src="https://kit.fontawesome.com/2d762f2fc2.js" crossorigin="anonymous"></script>
+    <title>Static Comp</title>
+  </head>
+  <body>
+      <header>
+        <div class = "firstFlexContainer">
+          <i class= "arrow fas fa-caret-down"></i>
+          <p class = "user">User Login</p>
+          <i class= "userLogo fas fa-user-astronaut"></i>
+          <i class = "fas fa-book-medical logoHidden" ></i>
+          <p class ="logoTextHidden">Books are Here"</p>
+        </div>
+        <nav>
+          <ul class = "secondFlexContainer">
+              <i class= "icon1 fas fa-book-open"></i>
+              <li>
+                 Reading
+              </li>
 
-        <i class=" arrow fas fa-caret-down"></i>
-        <p class = 'User'>User Login</p>
-        <i class=" userLogo fas fa-user-astronaut"></i>
-          <i class = 'fas fa-book-medical logoHidden' ></i>
-        <p class ='logoTextHidden'>Books are Here</p>
+                <i class= "icon fas fa-bookmark"></i>
+              <li>
+                  To Read
+              </li>
 
-      </div>
-
-      <nav >
-        <ul class = 'secondFlexContainer'>
-
-              <i class=" icon1 fas fa-book-open"></i>
-            <li>
-               Reading
-            </li>
-
-              <i class=" icon fas fa-bookmark"></i>
-            <li>
-                To Read
-            </li>
-
-              <i class="icon fas fa-book"></i>
-            <li>
-              Finished
-            </li>
-            <p class ='logoText  '>Books are Here</p>
-            <i class = 'logo fas fa-book-medical' ></i>
-
-        </ul>
-
-      </nav>
-   </header>
-  <h1>Books to Read</h1>
-  <article>
-    <section class ='box'>  <img class ='gatsby' img src ='images/rsz_electric.jpg' alt = 'icon'>
-      <i class=" buttonAboveImg fas fa-book-reader"></i>
-      <section class = 'rankAboveImg '> Order</section>
-      <section class = 'numberAboveImage'> 1</section>
-      <section class ='name'>The Electric Kool-Aid Acid Test</section>
-      <section class = 'year'>Year Published : 1968</section>
-      <section class ='link'><a href="https://www.goodreads.com/book/show/7442.The_Electric_Kool_Aid_Acid_Test" >Goodreads Page</a> </section>
-      <section >Genre: NonFiction</section>
-      <section class ='author'>Author:Tom Wolfe</section>
-      <section class ='goodStarsLong'>Goodreads Stars (out of 5) </section>
-      <section class ='stars'>3.92</section>
-    </section>
-  <section class ='box'> <img class ='gatsby' img src ='images/rsz_book.jpg' = 'icon'>
-    <i class=" fixContrast buttonAboveImg fas fa-book-reader"></i>
-    <section class = 'rankAboveImg '> Order</section>
-    <section class = 'numberAboveImage '> 2</section>
-    <section class ='name'>The Book</section>
-    <section class = 'year'>Year: 1966</section>
-    <section class ='link'><a href="https://www.goodreads.com/book/show/60551.The_Book_on_the_Taboo_Against_Knowing_Who_You_Are" >Goodreads Page</a> </section>
-    <section>Genre: Personal Development</section>
-    <section class ='author'>Author: Alan Watts</section>
-    <section class ='goodStars'>Goodreads Stars</section>
-    <section class ='stars'>4.27</section>
-  </section>
-<section class ='box'> <img class ='gatsby' img src ='images/rsz_thesound.jpg' alt = 'icon'>
-    <i class=" buttonAboveImg fas fa-book-reader"></i>
-  <section class = 'rankAboveImg'> Order</section>
-  <section class = 'numberAboveImage'> 3</section>
-  <section class ='name'>The Sound and the Fury</section>
-  <section class = 'year'>Year Published: 1929</section>
-  <section class ='link'><a href="https://www.goodreads.com/book/show/10975.The_Sound_and_the_Fury" >Goodreads Page</a> </section>
-  <section >Genre: Fiction </section>
-  <section class ='author'>Author: William Falkner</section>
-  <section class ='goodStars'>Goodreads Stars</section>
-  <section class ='stars'>3.86</section>
-</section>
-    <section class ='box'> <img class ='gatsby' img src ='images/rsz_onwriting.jpg' alt = 'icon'>
-      <i class=" buttonAboveImg fas fa-book-reader"></i>
-      <section class = 'rankAboveImg'> Order</section>
-      <section class = 'numberAboveImage'> 4</section>
-      <section class ='name'>On Writing</section>
-      <section class = 'year'>Year Published: 2000</section>
-      <section class ='link'><a href="https://www.goodreads.com/book/show/10569.On_Writing" >Goodreads Page</a> </section>
-      <section >Genre: Memoir</section>
-      <section class ='author'>Author: Stephen King</section>
-      <section class ='goodStars'>Goodreads Stars</section>
-      <section class ='stars'>4.3</section>
-    </section>
-
-    <section class ='box'> <img class ='gatsby' img src ='images/rsz_wolf.jpg' alt = 'icon'>
-      <i class=" buttonAboveImg fixContrast fas fa-book-reader"></i>
-      <section class = 'rankAboveImg fixContrast'> Order</section>
-      <section class = 'numberAboveImage fixContrast'> 5</section>
-      <section class ='name'>SteppenWolf</section>
-      <section class = 'year'>Year Published: 1927 </section>
-      <section class ='link'><a href="https://www.goodreads.com/book/show/16631.Steppenwolf" >Goodreads Page</a> </section>
-      <section >Genre: Fiction</section>
-      <section class ='author' >Author: Hermann Hesse </section>
-      <section class ='goodStars'>Goodreads Stars</section>
-      <section class ='stars'>4.13</section>
-    </section>
-    <section class ='box'> <img class ='gatsby' img src ='images/rsz_1wraith.jpg' alt = 'icon'>
-      <i class=" buttonAboveImg fas fa-book-reader"></i>
-      <section class = 'rankAboveImg'> Order</section>
-      <section class = 'numberAboveImage'> 6</section>
-      <section class ='name'>The Grapes of Wrath</section>
-      <section class = 'year'>Year Published: 1939 </section>
-      <section class ='link'><a href="https://www.goodreads.com/book/show/18114322-the-grapes-of-wrath" >Goodreads Page</a> </section>
-      <section >Genre: Historical Fiction</section>
-      <section class ='author'>Author: John Steinbeck</section>
-      <section class ='goodStars'>Goodreads Stars</section>
-      <section class ='stars'>3.97</section>
-
-    </section>
-
-    <section class ='box'> <img class ='gatsby' img src ='images/rsz_world.jpg' alt = 'icon'>
+                <i class= "icon fas fa-book"></i>
+              <li>
+                Finished
+              </li>
+              <p class ="logoText">Books are Here</p>
+              <i class = "logo fas fa-book-medical" ></i>
+          </ul>
+        </nav>
+     </header>
+    <h1>Books to Read</h1>
+    <article>
+      <section class ="box">  <img class ="gatsby" img src ="images/rsz_electric.jpg" alt = "icon">
+        <i class= "buttonAboveImg fas fa-book-reader"></i>
+        <section class = "rankAboveImg "> Order</section>
+        <section class = "numberAboveImage"> 1</section>
+        <section class ="name">The Electric Kool-Aid Acid Test</section>
+        <section class = "year">Year Published : 1968</section>
+        <section class ="link"><a href="https://www.goodreads.com/book/show/7442.The_Electric_Kool_Aid_Acid_Test" >Goodreads Page</a> </section>
+        <section >Genre: NonFiction</section>
+        <section class ="author">Author:Tom Wolfe</section>
+        <section class ="goodStarsLong">Goodreads Stars (out of 5) </section>
+        <section class ="stars">3.92</section>
+      </section>
+      <section class ="box"> <img class ="gatsby" img src ="images/rsz_book.jpg" = "icon">
+        <i class=" fixContrast buttonAboveImg fas fa-book-reader"></i>
+        <section class = "rankAboveImg "> Order</section>
+        <section class = "numberAboveImage "> 2</section>
+        <section class ="name">The Book</section>
+        <section class = "year">Year: 1966</section>
+        <section class ="link"><a href="https://www.goodreads.com/book/show/60551.The_Book_on_the_Taboo_Against_Knowing_Who_You_Are" >Goodreads Page</a> </section>
+        <section>Genre: Personal Development</section>
+        <section class ="author">Author: Alan Watts</section>
+        <section class ="goodStars">Goodreads Stars</section>
+        <section class ="stars">4.27</section>
+      </section>
+      <section class ="box"> <img class ="gatsby" img src ="images/rsz_thesound.jpg" alt = "icon">
+        <i class=" buttonAboveImg fas fa-book-reader"></i>
+        <section class = "rankAboveImg"> Order</section>
+        <section class = "numberAboveImage"> 3</section>
+        <section class ="name">The Sound and the Fury</section>
+        <section class = "year">Year Published: 1929</section>
+        <section class ="link"><a href="https://www.goodreads.com/book/show/10975.The_Sound_and_the_Fury" >Goodreads Page</a> </section>
+        <section >Genre: Fiction </section>
+        <section class ="author">Author: William Falkner</section>
+        <section class ="goodStars">Goodreads Stars</section>
+        <section class ="stars">3.86</section>
+      </section>
+      <section class ="box"> <img class ="gatsby" img src ="images/rsz_onwriting.jpg" alt = "icon">
+        <i class=" buttonAboveImg fas fa-book-reader"></i>
+        <section class = "rankAboveImg"> Order</section>
+        <section class = "numberAboveImage"> 4</section>
+        <section class ="name">On Writing</section>
+        <section class = "year">Year Published: 2000</section>
+        <section class ="link"><a href="https://www.goodreads.com/book/show/10569.On_Writing" >Goodreads Page</a> </section>
+        <section >Genre: Memoir</section>
+        <section class ="author">Author: Stephen King</section>
+        <section class ="goodStars">Goodreads Stars</section>
+        <section class ="stars">4.3</section>
+      </section>
+      <section class ="box"> <img class ="gatsby" img src ="images/rsz_wolf.jpg" alt = "icon">
         <i class=" buttonAboveImg fixContrast fas fa-book-reader"></i>
-      <section class = 'rankAboveImg fixContrast'> Order</section>
-      <section class = 'numberAboveImage fixContrast'> 7</section>
-      <section class ='name'>Brave New World</section>
-      <section class = 'year' >Year Published: 1932 </section>
-      <section class ='link'><a href="https://www.goodreads.com/book/show/5129.Brave_New_World" >Goodreads Page</a> </section>
-      <section >Genre: Fiction </section>
-      <section class ='author'>Author: Aldous Huxley</section>
-      <section class ='goodStars'>Goodreads Stars</section>
-      <section class ='stars'>3.99</section>
-    </section>
-    <section class ='box'> <img class ='gatsby' img src ='images/rsz_artist.jpg' alt = 'icon'>
-      <i class=" buttonAboveImg fas fa-book-reader"></i>
-      <section class = 'rankAboveImg'> Order</section>
-      <section class = 'numberAboveImage'> 8</section>
-      <section class ='name'>A Portrait of the Artist as a Young Man</section>
-      <section class = 'year'>Year Published: 1916 </section>
-      <section class ='link'><a href="https://www.goodreads.com/book/show/7588.A_Portrait_of_the_Artist_as_a_Young_Man" >Goodreads Page</a> </section>
-      <section >Genre: Fiction</section>
-      <section class ='author'> Author: James Joyce</section>
-      <section class ='goodStarsLong'>Goodreads Stars</section>
-      <section class ='stars'>3.62</section>
-    </section>
-  </article>
-</body>
+        <section class = "rankAboveImg fixContrast"> Order</section>
+        <section class = "numberAboveImage fixContrast"> 5</section>
+        <section class ="name">SteppenWolf</section>
+        <section class = "year">Year Published: 1927 </section>
+        <section class ="link"><a href="https://www.goodreads.com/book/show/16631.Steppenwolf" >Goodreads Page</a> </section>
+        <section >Genre: Fiction</section>
+        <section class ="author" >Author: Hermann Hesse </section>
+        <section class ="goodStars">Goodreads Stars</section>
+        <section class ="stars">4.13</section>
+      </section>
+      <section class ="box"> <img class ="gatsby" img src ="images/rsz_1wraith.jpg" alt = "icon">
+        <i class=" buttonAboveImg fas fa-book-reader"></i>
+        <section class = "rankAboveImg"> Order</section>
+        <section class = "numberAboveImage"> 6</section>
+        <section class ="name">The Grapes of Wrath</section>
+        <section class = "year">Year Published: 1939 </section>
+        <section class ="link"><a href="https://www.goodreads.com/book/show/18114322-the-grapes-of-wrath" >Goodreads Page</a> </section>
+        <section >Genre: Historical Fiction</section>
+        <section class ="author">Author: John Steinbeck</section>
+        <section class ="goodStars">Goodreads Stars</section>
+        <section class ="stars">3.97</section>
+      </section>
+      <section class ="box"> <img class ="gatsby" img src ="images/rsz_world.jpg" alt = "icon">
+        <i class=" buttonAboveImg fixContrast fas fa-book-reader"></i>
+        <section class = "rankAboveImg fixContrast"> Order</section>
+        <section class = "numberAboveImage fixContrast"> 7</section>
+        <section class ="name">Brave New World</section>
+        <section class = "year" >Year Published: 1932 </section>
+        <section class ="link"><a href="https://www.goodreads.com/book/show/5129.Brave_New_World" >Goodreads Page</a> </section>
+        <section >Genre: Fiction </section>
+        <section class ="author">Author: Aldous Huxley</section>
+        <section class ="goodStars">Goodreads Stars</section>
+        <section class ="stars">3.99</section>
+      </section>
+      <section class ="box"> <img class ="gatsby" img src ="images/rsz_artist.jpg" alt = "icon">
+        <i class=" buttonAboveImg fas fa-book-reader"></i>
+        <section class = "rankAboveImg"> Order</section>
+        <section class = "numberAboveImage"> 8</section>
+        <section class ="name">A Portrait of the Artist as a Young Man</section>
+        <section class = "year">Year Published: 1916 </section>
+        <section class ="link"><a href="https://www.goodreads.com/book/show/7588.A_Portrait_of_the_Artist_as_a_Young_Man" >Goodreads Page</a> </section>
+        <section >Genre: Fiction</section>
+        <section class ="author"> Author: James Joyce</section>
+        <section class ="goodStarsLong">Goodreads Stars</section>
+        <section class ="stars">3.62</section>
+      </section>
+    </article>
+  </body>
 </html>
