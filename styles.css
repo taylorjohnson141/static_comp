@@ -25,7 +25,13 @@ body{
   margin-bottom: 0;
   border-width: 10px;
 }
+.icon{
+  margin-top: .6em;
+}
+.icon1{
+  margin-top: .6em;
 
+}
 .secondFlexContainer{
   display: flex;
   color: #F8F7FF;
@@ -42,7 +48,6 @@ h1{
 
   p{
     margin:0px;
-    padding :0px;
     align-self: flex-end;
     color:#d7263d;
     white-space: nowrap;
@@ -57,13 +62,13 @@ li {
 list-style: none;
 padding-right:  1em;
 white-space: nowrap;
-margin-top: 16px;
+margin-top: .6em;
 
 }
 
 i{
-  padding-right:  1em;
-  margin-top: 12px;
+  padding-right:  .25em;
+  margin-top: 0;
 
 }
 img{
@@ -102,14 +107,14 @@ margin:0px 2em 20em 2em;
 .logoText{
   color: #F8F7FF;
   margin-left: auto;
-  margin-right: .5em;
+  margin-right: .2em;
   border:none;
   font-size:  2em;
   padding: 0;
   margin-top: 0;
-  margin-bottom: auto;
-
+  margin-bottom: 0;
 }
+
 .gatsby{
   position: absolute;
 padding: 0;
@@ -123,9 +128,9 @@ margin: 0;
 }
 
 .logo{
-/* why margin left auto work */
 font-size: 1em;
-  margin-right: 10px;
+  margin-right: 1em;
+  margin-top:.7em;
 
 }
 .rankAboveImg{
@@ -174,15 +179,17 @@ a{
 @media screen and (max-width: 400px){
   .logoHidden{
     font-size: 1em;
-      margin-right: 10px;
+    margin-top:  1.5em;
+
     display: inline !important;
     color:#F8F7FF;
     margin-right: auto;
     }
     .logoTextHidden{
       color: #F8F7FF;
-    margin-right: .5em;
+    margin-right: .2em;
     margin-left: 40%;
+    padding-bottom: 0;
       font-size:  1em !important ;
       display:inline;
     }
@@ -195,7 +202,17 @@ a{
   margin:0px 2em 20em 2em;
 
 }
+li{
+  margin-top: 0
+}
+.icon{
+  margin-top: 0
 
+}
+.icon1{
+  margin-top: 0
+
+}
 .logoText{
 display: none;
 }
@@ -204,7 +221,7 @@ display: none !important;
 }
 .logoTextHidden{
   color: #F8F7FF;
-margin-right: .5em;
+margin-right: .2em;
 margin-left: 40%;
   font-size:  2em;
   display:inline;
@@ -212,6 +229,7 @@ margin-left: 40%;
 .logoHidden{
   font-size: 1em;
     margin-right: 10px;
+    margin-top: 1.5em;
   display: inline !important;
   color:#F8F7FF;
   margin-right: auto;
@@ -224,10 +242,13 @@ margin-left: 40%;
   }
   .User{
     align-self: center ;
+    margin-bottom: 2em;
+
   }
   .stars{
     font-size: 1.25em;
   }
+
 }
 
 @media screen and (max-width: 50em)  {
@@ -246,14 +267,15 @@ display: none !important;
 }
 .logoTextHidden{
   color: #F8F7FF;
-margin-right: .5em;
+margin-right: .2em;
 margin-left: 30%;
   font-size:  2em;
   display:inline;
 }
 .logoHidden{
   font-size: 1em;
-    margin-right: 10px;
+  margin-top: 1.5;
+    margin-right: .5em;
   display: inline !important;
   color:#F8F7FF;
   margin-right: auto;
@@ -266,6 +288,7 @@ margin-left: 30%;
   }
   .User{
     align-self: center ;
+    margin-bottom: 2em;
   }
   .goodStarsLong{
     padding-top: 0;
