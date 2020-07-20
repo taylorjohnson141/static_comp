@@ -14,6 +14,7 @@ body{
   margin: 0;
 
 }
+
 .userLogo{
   color:#d7263d;
   padding-right: .5em;
@@ -151,6 +152,10 @@ font-size: 1em;
   right:1em;
   color: #F8F7FF;
 }
+.fixContrast{
+  color:black;
+}
+
 
 div{
   border: 20px solid  #172A3A ;
